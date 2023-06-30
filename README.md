@@ -25,14 +25,22 @@ $\text{flux}\_{f\_3}(P\_1,P\_2)=\frac{1}{6}\cdot(P\_{1y}^2+P\_{2y}^2+P\_{1y}P\_{
 
 These formulas were derived from a line integral!
 
-(formula)
+```math
+\text{flux}_{\vec{v}}(P_1,P_2)=\int_0^1dt
+```
 
-Where in each (fancy v) is the field with the divergences of 1, x, or y !
+Where in each $v$ is the field with the divergences of 1, x, or y !
 
-$f\_1 = \[a\]$
+```math
+\vec{f_1}(\vec{u})=\begin{bmatrix}u_x\\0\end{bmatrix}
+```
 
-(formula)
+```math
+\vec{f_2}(\vec{u})=\begin{bmatrix}\frac{u_x^2}{2}\\0\end{bmatrix}
+```
 
-(formula)
+```math
+\vec{f_3}(\vec{u})=\begin{bmatrix}0\\\frac{u_y^2}{2}\end{bmatrix}
+```
 
 
